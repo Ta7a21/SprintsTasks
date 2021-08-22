@@ -13,30 +13,30 @@
             <legend>
                 Account
             </legend>
-            <label>Profile Picture</label>
+            <label for="img">Profile Picture</label>
             <br>
-            <input type="file" value="Upload a photo">
+            <input id="img" type="file" value="Upload a photo" name="profilePicture">
             <br><br>
-            <label>Username</label>
+            <label for="usrname">Username</label>
             <br>
-            <input type="text" minlength="4" maxlength="8" required>
+            <input id="usrname" type="text" minlength="4" name="username" maxlength="8" required>
             <br><br>
-            <label>Password</label>
+            <label for="pass">Password</label>
             <br>
-            <input type="password" minlength="6" required>
+            <input id="pass" type="password" minlength="6" name="password" required>
         </fieldset>
         <fieldset>
             <legend>
                 Contacts
             </legend>
-            <label>Facebook</label>
-            <input type="url">
+            <label for="fblink">Facebook</label>
+            <input type="url" id="fblink" name="facebookLink">
             <br><br>
-            <label>email</label>
-            <input type="email" required>
+            <label for="email">email</label>
+            <input id="email" type="email" name="email" required>
             <br><br>
-            <label>Mobile Phone</label>
-            <input type="number" minlength="11" maxlength="11" required>
+            <label for="phone">Mobile Phone</label>
+            <input id="phone" type="number" minlength="11" maxlength="11" name="phoneNumber" required>
         </fieldset>
         <br>
         <input type="submit">
