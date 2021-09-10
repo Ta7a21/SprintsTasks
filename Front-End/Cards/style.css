@@ -1,0 +1,85 @@
+.A0-card-holder{
+    width: 339px;
+    height: 257px;
+    position: relative;
+}
+
+.cA0-grd-color{
+    background: linear-gradient(to right,#EFF8FE,#F4F4FF);
+}
+
+.cA0-sm-shadow{
+    box-shadow: 0px 16px 40px 0px rgba(112, 144, 176, 20%);
+}
+
+.cA0-lg-shadow{
+    box-shadow: 0px 3px 6px 0px rgba(112, 144, 176, 20%);
+}
+
+.uA0-f-r-10{
+    border-radius: 10px;
+}
+
+.A0-card-img-border{
+    background: linear-gradient(to right,#4BBEF7,#9C9DFE);
+    border-radius: 50%;
+    width: 168px;
+    height: 168px;
+    position: absolute;
+    top: -84px;
+    left: calc(50% - 84px);
+    box-shadow: 0px 16px 40px 0px rgba(156, 157, 254, 20%);
+}
+
+.A0-card-img{
+    background-image: url(https://image.winudf.com/v2/image1/Y29tLnNpY2tkZXYubWVzc2l3YWxscGFwZXJoZDIwMjBfc2NyZWVuXzFfMTU5OTk4NTI0OF8wOTc/screen-1.jpg?fakeurl=1&type=.jpg);
+    width: 160px;
+    height: 160px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: -82px;
+    left: calc(50% - 82px);
+    border-radius: 50%;
+    border: 2px solid #707070
+}
+
+.A0-tags-holder{
+    padding: 8px;
+    width: 122px;
+    height: 24px;
+    position: absolute;
+    left: calc(50%-61px);
+    background: linear-gradient(to right,#F3F3FF,#E9F7FE);
+    border: 1px solid #707070
+}
+
+.A0-hidden-div{
+    padding: 43px;
+    visibility: hidden;
+}
+
+.A0-tag{
+    display: inline-block;
+    padding: 8px;
+    align-items: center;
+}
+
+.fA0-size-a{
+    font-size: 8px;
+}
+
+.A0-center-elements{
+    width: 103px;
+    margin: auto;
+}
+
+.iA0-star{
+    background-image:url('star.png');
+    display: inline-block;
+    width:8px;
+    height: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
